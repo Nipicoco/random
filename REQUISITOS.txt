@@ -1,0 +1,12 @@
+# 
+Crea una agenda de contactos, donde debe cumplir con lo siguiente:
+
+Mostrar un menú por consola donde puedes listar, agregar, borrar, editar y buscar contactos (10 puntos)
+Al listar contacto debes imprimir por pantalla solo los nombres con un número identificador, para luego preguntarle si quiere volver o ver en detalle. Si selecciona volver vuelve al menú (listar, agregar,borrar, editar y buscar), si en ver detalle ingresa el número identificador del contacto se mostrará por pantalla los nombres y apellidos, edad, número de teléfono (10 puntos)
+Al seleccionar agregar contacto, se solicitará la información de los nombres y apellidos, edad y número de teléfono, luego la información deberá almacenarse en un archivo llamado contactos.txt, la información anterior no debe perderse. (15 puntos)
+Al seleccionar borrar contacto, se debe mostrar una lista con los contactos donde tendrán un número identificador, luego pedirá que usuario quieres eliminar, se ingresa el número identificador y se solicitará confirmación, una vez confirmado el contacto deberá eliminarse del archivo. (15 puntos)
+Al seleccionar editar, se mostrará a una lista de contactos. Se selecciona un contacto y que campo editara, todo cambio debe actualizar el archivo contacto.txt (10 puntos)
+Al seleccionar buscar, se solicitará un nombre y mostrará a todos los usuarios que tengan ese nombre independiente de mayúsculas y minúsculas, luego el usuario puede seleccionar al contacto para ver sus detalles. (10 puntos)
+La información no debe perderse al cerrar y volver abrir el programa. (10 puntos)
+Validaciones en todas las consultas (20 puntos). Para validar probare ingresando todos los caracteres en cada consulta, por lo que si estaba preparado para recibir un numero pero recibe una letra, el programa no debe caerse, esto se podrá con el uso correcto del try, exception y finally.
+#
